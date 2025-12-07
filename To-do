@@ -1,0 +1,12 @@
+# 1. Get the information from each line, just ignoring blanks for now
+# 2. Make folders for each name, we'll just remove characters that we don't want for now.
+# 3. Pop up a file selection window for each name, somehow show thumbnails of the selected photos in a box
+#    of the person's name
+# 4. Get the face from each photo and make a training version of it that is just the face close-up
+# 5. Bring in the pre-trained model, make trainable false
+# 6. Train the model on the pictures
+# 7. Ask for 5 sample pictures that have multiple of the people in them.
+# 8. Same as before, but just one selection and one group of thumbs.
+# 9. If it didn't work out, ask for better pictures (or we can retrain using a module that moves the pictures
+#    around and what-not or some such to make the training better
+# 10. Sort pictures: If folder with that group of people exists, put file in it, otherwise, create folder first
